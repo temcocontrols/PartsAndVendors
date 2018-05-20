@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F7226464-C41C-4909-BF74-97328B72FFC8}</ProjectGuid>
+    <RootNamespace>T3000</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <ProjectName>TemcoPartsVendors</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <UseOfAtl>false</UseOfAtl>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\OPV Output\debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\OPV Output\OPV object\debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</EmbedManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\OPV\release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\OPV\OPV object\release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</EmbedManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <ExceptionHandling>Async</ExceptionHandling>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>setupapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <UACExecutionLevel>AsInvoker</UACExecutionLevel>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateMapFile>true</GenerateMapFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>setupapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <UACExecutionLevel>AsInvoker</UACExecutionLevel>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\TreeGrid\GridBtnCell_src\BtnDataBase.cpp" />
+    <ClCompile Include="..\TreeGrid\GridBtnCell_src\GridBtnCell.cpp" />
+    <ClCompile Include="..\TreeGrid\GridBtnCell_src\GridBtnCellBase.cpp" />
+    <ClCompile Include="..\TreeGrid\GridBtnCell_src\GridBtnCellCombo.cpp" />
+    <ClCompile Include="..\TreeGrid\GridBtnCell_src\InPlaceList.cpp" />
+    <ClCompile Include="..\TreeGrid\GridCtrl_src\GridCell.cpp" />
+    <ClCompile Include="..\TreeGrid\GridCtrl_src\GridCellBase.cpp" />
+    <ClCompile Include="..\TreeGrid\GridCtrl_src\GridCtrl.cpp" />
+    <ClCompile Include="..\TreeGrid\GridCtrl_src\GridDropTarget.cpp" />
+    <ClCompile Include="..\TreeGrid\GridCtrl_src\InPlaceEdit.cpp" />
+    <ClCompile Include="..\TreeGrid\GridCtrl_src\TitleTip.cpp" />
+    <ClCompile Include="..\TreeGrid\GridTreeBtnCell_src\GridTreeBtnCell.cpp" />
+    <ClCompile Include="..\TreeGrid\TreeColumn_src\GridTreeCell.cpp" />
+    <ClCompile Include="..\TreeGrid\TreeColumn_src\GridTreeCellBase.cpp" />
+    <ClCompile Include="..\TreeGrid\TreeColumn_src\TreeColumn.cpp" />
+    <ClCompile Include="AddBOMPLDlg.cpp" />
+    <ClCompile Include="AssyTreeDlg.cpp" />
+    <ClCompile Include="AutoRichEditCtrl.cpp" />
+    <ClCompile Include="BADO\BADO.cpp" />
+    <ClCompile Include="BuildHistoryDlg.cpp" />
+    <ClCompile Include="Class\md5.cpp" />
+    <ClCompile Include="Class\MulitithreadSocket.cpp" />
+    <ClCompile Include="CM5\CStatic\staticex.cpp" />
+    <ClCompile Include="CM5\ListCtrlCellEx.cpp" />
+    <ClCompile Include="CM5\ListCtrlEx.cpp" />
+    <ClCompile Include="CM5\MyOwnListCtrl.cpp" />
+    <ClCompile Include="CM5\PointItem.cpp" />
+    <ClCompile Include="CustomerDlg.cpp" />
+    <ClCompile Include="DBConfigDlg.cpp" />
+    <ClCompile Include="DebugMessageDlg.cpp" />
+    <ClCompile Include="DllFunction.cpp" />
+    <ClCompile Include="FileOperations.cpp" />
+    <ClCompile Include="ItemAndScourceDlg.cpp" />
+    <ClCompile Include="excel9.cpp" />
+    <ClCompile Include="globle_function.cpp" />
+    <ClCompile Include="IniFile.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="NewPNDlg.cpp" />
+    <ClCompile Include="OrderInformationSearchDlg.cpp" />
+    <ClCompile Include="PartVendorQuotationDlg.cpp" />
+    <ClCompile Include="PictureCtrl.cpp" />
+    <ClCompile Include="PNDlg.cpp" />
+    <ClCompile Include="PriceBreaksDlg.cpp" />
+    <ClCompile Include="PVBOMDlg.cpp" />
+    <ClCompile Include="PVBuildDlg.cpp" />
+    <ClCompile Include="PVBuyDlg.cpp" />
+    <ClCompile Include="PVCurrenciesDlg.cpp" />
+    <ClCompile Include="PVDatabase.cpp" />
+    <ClCompile Include="PVDetailedVendorDlg.cpp" />
+    <ClCompile Include="PVDlg.cpp" />
+    <ClCompile Include="PVImportBOMDlg.cpp" />
+    <ClCompile Include="PVItemMasterDlg.cpp" />
+    <ClCompile Include="PVLinkVendorsItemDlg.cpp" />
+    <ClCompile Include="PVLoginWindow.cpp" />
+    <ClCompile Include="PVMainScreenDlg.cpp" />
+    <ClCompile Include="PVNewClientDlg.cpp" />
+    <ClCompile Include="PVPODlg.cpp" />
+    <ClCompile Include="PVPurchaseOrderDlg.cpp" />
+    <ClCompile Include="PVSalesDlg.cpp" />
+    <ClCompile Include="PVSetAddressDlg.cpp" />
+    <ClCompile Include="PVUnitMeasureDlg.cpp" />
+    <ClCompile Include="PVVendorDlg.cpp" />
+    <ClCompile Include="QPrint.cpp" />
+    <ClCompile Include="SSplitter.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="T3000.cpp" />
+    <ClCompile Include="T3000Doc.cpp" />
+    <ClCompile Include="T3000View.cpp" />
+    <ClCompile Include="CM5\SliderBoth.cpp" />
+    <ClCompile Include="CM5\SliderBothBtn.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\ICO\up-IM.bmp" />
+    <None Include="..\ICO\up-IM.ico" />
+    <None Include="history.txt" />
+    <None Include="res\annual.ico" />
+    <None Include="res\ApplyDisable.bmp" />
+    <None Include="res\ApplyDown.bmp" />
+    <None Include="res\ApplyFouct.bmp" />
+    <None Include="res\ApplyUp.bmp" />
+    <None Include="res\Back.bmp" />
+    <None Include="res\bacnet_menu_bit.bmp" />
+    <None Include="res\bitmap1.bmp" />
+    <None Include="res\bitmap2.bmp" />
+    <None Include="res\bitmap4.bmp" />
+    <None Include="C:\Users\pc\Desktop\bmp00001.bmp" />
+    <None Include="res\bitmap8.bmp" />
+    <None Include="res\bitmap_v.bmp" />
+    <None Include="res\bitmap_v_Connected.bmp" />
+    <None Include="res\bmp00001.bmp" />
+    <None Include="res\bmp_bacnet.bmp" />
+    <None Include="res\bmp_down.bmp" />
+    <None Include="res\bmp_up.bmp" />
+    <None Include="res\building.bin" />
+    <None Include="res\Building.bmp" />
+    <None Include="res\check.bmp" />
+    <None Include="res\checkno.bmp" />
+    <None Include="res\ClearDisable.bmp" />
+    <None Include="res\ClearDown.bmp" />
+    <None Include="res\ClearFouct.bmp" />
+    <None Include="res\ClearUp.bmp" />
+    <None Include="res\coldtool.bmp" />
+    <None Include="res\default view.bmp" />
+    <None Include="res\default view.jpg" />
+    <None Include="res\Exit.ico" />
+    <None Include="res\folders.bmp" />
+    <None Include="res\HOMEBUTTON.bmp" />
+    <None Include="res\hottool.bmp" />
+    <None Include="res\Input.ico" />
+    <None Include="res\LCD Table Button.bmp" />
+    <None Include="res\LED Table Button.bmp" />
+    <None Include="res\Login.bmp" />
+    <None Include="res\MDisable.bmp" />
+    <None Include="res\MDown.bmp" />
+    <None Include="res\menubaro.bmp" />
+    <None Include="res\menubaro_Connected.bmp" />
+    <None Include="res\menu_img.bmp" />
+    <None Include="res\menu_imgeOwn.bmp" />
+    <None Include="res\menu_imgeOwn16.bmp" />
+    <None Include="res\MFouct.bmp" />
+    <None Include="res\monitor_.bin" />
+    <None Include="res\MUp.bmp" />
+    <None Include="C:\Documents and Settings\lee\桌面\NWT3000.ico" />
+    <None Include="res\OK.ico" />
+    <None Include="res\Output.ico" />
+    <None Include="res\Programing.ico" />
+    <None Include="res\PVLOGO.bmp" />
+    <None Include="res\PVMAINBACKGROUND.bmp" />
+    <None Include="res\Refresh.ico" />
+    <None Include="res\relay.ico" />
+    <None Include="res\Scan.ico" />
+    <None Include="res\Schedule0607.bmp" />
+    <None Include="res\Select.ico" />
+    <None Include="res\serialnum.ico" />
+    <None Include="C:\Documents and Settings\lee\桌面\serialnum.ico" />
+    <None Include="res\switch_off.ico" />
+    <None Include="res\switch_on.ico" />
+    <None Include="res\T3000.ico" />
+    <None Include="res\T3000.rc2" />
+    <None Include="res\T3000Building.bmp" />
+    <None Include="res\T3000Doc.ico" />
+    <None Include="res\T3000_DEFAULT.bmp" />
+    <None Include="res\temcologo.bmp" />
+    <None Include="res\temco_logo.bmp" />
+    <None Include="res\temco_logo.jpg" />
+    <None Include="res\Toolbar-48.bmp" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\toolbar1.bmp" />
+    <None Include="res\toolbar2.bmp" />
+    <None Include="res\Toolbar256.bmp" />
+    <None Include="res\Toolbar_V25049.bmp" />
+    <None Include="res\ToolbarOwn.bmp" />
+    <None Include="res\treenode.bmp" />
+    <None Include="res\variable.ico" />
+    <None Include="res\week.ico" />
+    <None Include="UserImages.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\TreeGrid\GridBtnCell_src\BtnDataBase.h" />
+    <ClInclude Include="..\TreeGrid\GridBtnCell_src\GridBtnCell.h" />
+    <ClInclude Include="..\TreeGrid\GridBtnCell_src\GridBtnCellBase.h" />
+    <ClInclude Include="..\TreeGrid\GridBtnCell_src\GridBtnCellCombo.h" />
+    <ClInclude Include="..\TreeGrid\GridBtnCell_src\InPlaceList.h" />
+    <ClInclude Include="..\TreeGrid\GridCtrl_src\CellRange.h" />
+    <ClInclude Include="..\TreeGrid\GridCtrl_src\GridCell.h" />
+    <ClInclude Include="..\TreeGrid\GridCtrl_src\GridCellBase.h" />
+    <ClInclude Include="..\TreeGrid\GridCtrl_src\GridCtrl.h" />
+    <ClInclude Include="..\TreeGrid\GridCtrl_src\GridDropTarget.h" />
+    <ClInclude Include="..\TreeGrid\GridCtrl_src\InPlaceEdit.h" />
+    <ClInclude Include="..\TreeGrid\GridCtrl_src\MemDC.h" />
+    <ClInclude Include="..\TreeGrid\GridCtrl_src\TitleTip.h" />
+    <ClInclude Include="..\TreeGrid\GridTreeBtnCell_src\GridTreeBtnCell.h" />
+    <ClInclude Include="..\TreeGrid\TreeColumn_src\GridTreeCell.h" />
+    <ClInclude Include="..\TreeGrid\TreeColumn_src\GridTreeCellBase.h" />
+    <ClInclude Include="..\TreeGrid\TreeColumn_src\TreeColumn.h" />
+    <ClInclude Include="AddBOMPLDlg.h" />
+    <ClInclude Include="AssyTreeDlg.h" />
+    <ClInclude Include="AutoRichEditCtrl.h" />
+    <ClInclude Include="BADO\BADO.h" />
+    <ClInclude Include="BuildHistoryDlg.h" />
+    <ClInclude Include="Class\md5.h" />
+    <ClInclude Include="CM5\ListCtrlCellEx.h" />
+    <ClInclude Include="CM5\ListCtrlEx.h" />
+    <ClInclude Include="CM5\MyOwnListCtrl.h" />
+    <ClInclude Include="CM5\PARSER.H" />
+    <ClInclude Include="CM5\PerfTimer.h" />
+    <ClInclude Include="CM5\ROUTER.H" />
+    <ClInclude Include="CM5\T3000DEF.H" />
+    <ClInclude Include="CM5\ud_str.h" />
+    <ClInclude Include="CM5\user_data.h" />
+    <ClInclude Include="CustomerDlg.h" />
+    <ClInclude Include="DBConfigDlg.h" />
+    <ClInclude Include="DebugMessageDlg.h" />
+    <ClInclude Include="DllFunction.h" />
+    <ClInclude Include="FileOperations.h" />
+    <ClInclude Include="gloab_define.h" />
+    <ClInclude Include="global_struct.h" />
+    <ClInclude Include="ItemAndScourceDlg.h" />
+    <ClInclude Include="NewPNDlg.h" />
+    <ClInclude Include="OrderInformationSearchDlg.h" />
+    <ClInclude Include="PartVendorQuotationDlg.h" />
+    <ClInclude Include="PictureCtrl.h" />
+    <ClInclude Include="ping.h" />
+    <ClInclude Include="PNDlg.h" />
+    <ClInclude Include="PriceBreaksDlg.h" />
+    <ClInclude Include="PVBOMDlg.h" />
+    <ClInclude Include="PVBuildDlg.h" />
+    <ClInclude Include="PVBuyDlg.h" />
+    <ClInclude Include="PVCurrenciesDlg.h" />
+    <ClInclude Include="PVDatabase.h" />
+    <ClInclude Include="pvdatabasestruct.h" />
+    <ClInclude Include="PVDetailedVendorDlg.h" />
+    <ClInclude Include="PVDlg.h" />
+    <ClInclude Include="PVImportBOMDlg.h" />
+    <ClInclude Include="PVItemMasterDlg.h" />
+    <ClInclude Include="PVLinkVendorsItemDlg.h" />
+    <ClInclude Include="PVLoginWindow.h" />
+    <ClInclude Include="PVMainScreenDlg.h" />
+    <ClInclude Include="PVNewClientDlg.h" />
+    <ClInclude Include="PVPODlg.h" />
+    <ClInclude Include="PVPurchaseOrderDlg.h" />
+    <ClInclude Include="PVSalesDlg.h" />
+    <ClInclude Include="PVSetAddressDlg.h" />
+    <ClInclude Include="PVUnitMeasureDlg.h" />
+    <ClInclude Include="PVVendorDlg.h" />
+    <ClInclude Include="QPrint.h" />
+    <ClInclude Include="SSplitter.h" />
+    <ClInclude Include="T3ModulesOutputDlg.h" />
+    <ClInclude Include="T3ModulesView.h" />
+    <ClInclude Include="T3RangeDlg.h" />
+    <ClInclude Include="T3RTDView.h" />
+    <ClInclude Include="TargetGrid.h" />
+    <ClInclude Include="Tree.h" />
+    <ClInclude Include="AddBuilding.h" />
+    <ClInclude Include="LightingController\configure.h" />
+    <ClInclude Include="define.h" />
+    <ClInclude Include="excel9.h" />
+    <ClInclude Include="global_variable.h" />
+    <ClInclude Include="global_variable_extern.h" />
+    <ClInclude Include="globle_function.h" />
+    <ClInclude Include="IniFile.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="schedule.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="T3000.h" />
+    <ClInclude Include="T3000Doc.h" />
+    <ClInclude Include="T3000View.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="CM5\DialogCM5.h" />
+    <ClInclude Include="CM5\SliderBoth.h" />
+    <ClInclude Include="CM5\SliderBothBtn.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="T3000.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="T3000.rc" _x007B_232E456A-87C3-11D1-8BE3-0000F8754DA1_x007D_="CMonthview1" _x007B_6262D3A0-531B-11CF-91F6-C2863C385E30_x007D_="CMsflexgrid1" _x007B_3A2B370C-BA0A-11D1-B137-0000F8753F5D_x007D_="CMschart1" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

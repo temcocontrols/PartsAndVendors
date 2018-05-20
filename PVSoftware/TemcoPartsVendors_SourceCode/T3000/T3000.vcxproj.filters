@@ -1,0 +1,808 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="ClassInfo">
+      <UniqueIdentifier>{c664f2cd-e719-4782-bcf4-c788a2753a9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BADO">
+      <UniqueIdentifier>{c4576a71-639c-4b70-a1ac-7b0688be04b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bacnet">
+      <UniqueIdentifier>{47872dd0-6006-4513-92b4-d6258d979013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bacnet\CM5_H">
+      <UniqueIdentifier>{f1c0a87b-351f-4535-a9ab-10e2bb3a8940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="TreeGrid">
+      <UniqueIdentifier>{5ba7711a-81cf-4a11-a50e-264bc16c0808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TreeGrid\GridBtnCell_src">
+      <UniqueIdentifier>{95270e65-09c5-48b6-b2e3-6d5b3b99777c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TreeGrid\GridCtrl_src">
+      <UniqueIdentifier>{8afb31cc-ba0d-493c-aa68-3005d070c97e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TreeGrid\GridTreeBtnCell_src">
+      <UniqueIdentifier>{83a75cff-fd10-405f-ada4-3b6d69c3dd39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TreeGrid\TreeColumn_src">
+      <UniqueIdentifier>{35e670f1-eb2f-41ae-bb7b-1d9f700ba973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="History">
+      <UniqueIdentifier>{9e39e6bf-f815-478f-8e70-d84acd465144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SplitterCtrl">
+      <UniqueIdentifier>{283c924f-6df3-4d6f-8dcc-252c518e6c3b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="excel9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="globle_function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IniFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="T3000.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="T3000Doc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="T3000View.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CM5\SliderBoth.cpp">
+      <Filter>Bacnet</Filter>
+    </ClCompile>
+    <ClCompile Include="CM5\SliderBothBtn.cpp">
+      <Filter>Bacnet</Filter>
+    </ClCompile>
+    <ClCompile Include="CM5\ListCtrlCellEx.cpp">
+      <Filter>Bacnet</Filter>
+    </ClCompile>
+    <ClCompile Include="CM5\ListCtrlEx.cpp">
+      <Filter>Bacnet</Filter>
+    </ClCompile>
+    <ClCompile Include="CM5\MyOwnListCtrl.cpp">
+      <Filter>Bacnet</Filter>
+    </ClCompile>
+    <ClCompile Include="CM5\CStatic\staticex.cpp">
+      <Filter>Bacnet</Filter>
+    </ClCompile>
+    <ClCompile Include="CM5\PointItem.cpp">
+      <Filter>Bacnet</Filter>
+    </ClCompile>
+    <ClCompile Include="PVDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\md5.cpp">
+      <Filter>ClassInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\MulitithreadSocket.cpp">
+      <Filter>ClassInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="DllFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BADO\BADO.cpp">
+      <Filter>BADO</Filter>
+    </ClCompile>
+    <ClCompile Include="PVBOMDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PVDatabase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PVPurchaseOrderDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PNDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PVItemMasterDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PVMainScreenDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PVVendorDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PVPODlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddBOMPLDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PVDetailedVendorDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PartVendorQuotationDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PVLinkVendorsItemDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PriceBreaksDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TreeGrid\GridBtnCell_src\BtnDataBase.cpp">
+      <Filter>TreeGrid\GridBtnCell_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TreeGrid\GridBtnCell_src\GridBtnCell.cpp">
+      <Filter>TreeGrid\GridBtnCell_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TreeGrid\GridBtnCell_src\GridBtnCellBase.cpp">
+      <Filter>TreeGrid\GridBtnCell_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TreeGrid\GridBtnCell_src\GridBtnCellCombo.cpp">
+      <Filter>TreeGrid\GridBtnCell_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TreeGrid\GridBtnCell_src\InPlaceList.cpp">
+      <Filter>TreeGrid\GridBtnCell_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TreeGrid\GridCtrl_src\GridCell.cpp">
+      <Filter>TreeGrid\GridCtrl_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TreeGrid\GridCtrl_src\GridCellBase.cpp">
+      <Filter>TreeGrid\GridCtrl_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TreeGrid\GridCtrl_src\GridCtrl.cpp">
+      <Filter>TreeGrid\GridCtrl_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TreeGrid\GridCtrl_src\GridDropTarget.cpp">
+      <Filter>TreeGrid\GridCtrl_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TreeGrid\GridCtrl_src\InPlaceEdit.cpp">
+      <Filter>TreeGrid\GridCtrl_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TreeGrid\GridCtrl_src\TitleTip.cpp">
+      <Filter>TreeGrid\GridCtrl_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TreeGrid\GridTreeBtnCell_src\GridTreeBtnCell.cpp">
+      <Filter>TreeGrid\GridTreeBtnCell_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TreeGrid\TreeColumn_src\GridTreeCell.cpp">
+      <Filter>TreeGrid\TreeColumn_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TreeGrid\TreeColumn_src\GridTreeCellBase.cpp">
+      <Filter>TreeGrid\TreeColumn_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TreeGrid\TreeColumn_src\TreeColumn.cpp">
+      <Filter>TreeGrid\TreeColumn_src</Filter>
+    </ClCompile>
+    <ClCompile Include="PVBuildDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PVBuyDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemAndScourceDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QPrint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PVUnitMeasureDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PVSetAddressDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PVImportBOMDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileOperations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PictureCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PVCurrenciesDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PVSalesDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PVNewClientDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomerDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoRichEditCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NewPNDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssyTreeDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PVLoginWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugMessageDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderInformationSearchDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildHistoryDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SSplitter.cpp">
+      <Filter>SplitterCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="DBConfigDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ApplyDisable.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ApplyDown.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ApplyFouct.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ApplyUp.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\pc\Desktop\bmp00001.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp_down.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp_up.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\check.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\checkno.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ClearDisable.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ClearDown.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ClearFouct.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ClearUp.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\coldtool.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\hottool.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\MDisable.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\MDown.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\menu_img.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\menu_imgeOwn.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\menu_imgeOwn16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\MFouct.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\MUp.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Documents and Settings\lee\桌面\NWT3000.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Schedule0607.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\serialnum.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Documents and Settings\lee\桌面\serialnum.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\T3000.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\T3000.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\T3000Doc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar-48.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolbar1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolbar2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar_V25049.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ToolbarOwn.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\treenode.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="UserImages.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Refresh.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Exit.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Input.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Input.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Programing.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Output.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\variable.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\week.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\annual.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\OK.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Back.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\temcologo.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\LED Table Button.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\LCD Table Button.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\menubaro.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\menubaro_Connected.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap_v.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap_v_Connected.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\temco_logo.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\temco_logo.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\default view.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\default view.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Scan.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Login.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\relay.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\switch_on.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\switch_off.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Building.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Select.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\T3000Building.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\T3000_DEFAULT.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp_bacnet.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00001.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bacnet_menu_bit.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\monitor_.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\building.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\folders.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\ICO\up-IM.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\ICO\up-IM.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PVLOGO.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PVMAINBACKGROUND.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\HOMEBUTTON.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="history.txt">
+      <Filter>History</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddBuilding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LightingController\configure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="excel9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="global_variable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="global_variable_extern.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globle_function.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IniFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="schedule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="T3000.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="T3000Doc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="T3000View.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="T3RTDView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CM5\DialogCM5.h">
+      <Filter>Bacnet\CM5_H</Filter>
+    </ClInclude>
+    <ClInclude Include="CM5\ListCtrlCellEx.h">
+      <Filter>Bacnet\CM5_H</Filter>
+    </ClInclude>
+    <ClInclude Include="CM5\ListCtrlEx.h">
+      <Filter>Bacnet\CM5_H</Filter>
+    </ClInclude>
+    <ClInclude Include="CM5\PARSER.H">
+      <Filter>Bacnet\CM5_H</Filter>
+    </ClInclude>
+    <ClInclude Include="CM5\ROUTER.H">
+      <Filter>Bacnet\CM5_H</Filter>
+    </ClInclude>
+    <ClInclude Include="CM5\PerfTimer.h">
+      <Filter>Bacnet\CM5_H</Filter>
+    </ClInclude>
+    <ClInclude Include="CM5\MyOwnListCtrl.h">
+      <Filter>Bacnet\CM5_H</Filter>
+    </ClInclude>
+    <ClInclude Include="CM5\SliderBoth.h">
+      <Filter>Bacnet\CM5_H</Filter>
+    </ClInclude>
+    <ClInclude Include="CM5\SliderBothBtn.h">
+      <Filter>Bacnet\CM5_H</Filter>
+    </ClInclude>
+    <ClInclude Include="CM5\T3000DEF.H">
+      <Filter>Bacnet\CM5_H</Filter>
+    </ClInclude>
+    <ClInclude Include="CM5\ud_str.h">
+      <Filter>Bacnet\CM5_H</Filter>
+    </ClInclude>
+    <ClInclude Include="CM5\user_data.h">
+      <Filter>Bacnet\CM5_H</Filter>
+    </ClInclude>
+    <ClInclude Include="gloab_define.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetGrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PVDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\md5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DllFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="global_struct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BADO\BADO.h">
+      <Filter>BADO</Filter>
+    </ClInclude>
+    <ClInclude Include="T3ModulesView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="T3RangeDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="T3ModulesOutputDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pvdatabasestruct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PVBOMDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PVDatabase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PVPurchaseOrderDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PNDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PVItemMasterDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PVMainScreenDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewPNDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PVVendorDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PVPODlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddBOMPLDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PVDetailedVendorDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PartVendorQuotationDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PVLinkVendorsItemDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PriceBreaksDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TreeGrid\GridBtnCell_src\BtnDataBase.h">
+      <Filter>TreeGrid\GridBtnCell_src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TreeGrid\GridBtnCell_src\GridBtnCell.h">
+      <Filter>TreeGrid\GridBtnCell_src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TreeGrid\GridBtnCell_src\GridBtnCellBase.h">
+      <Filter>TreeGrid\GridBtnCell_src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TreeGrid\GridBtnCell_src\GridBtnCellCombo.h">
+      <Filter>TreeGrid\GridBtnCell_src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TreeGrid\GridBtnCell_src\InPlaceList.h">
+      <Filter>TreeGrid\GridBtnCell_src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TreeGrid\GridCtrl_src\CellRange.h">
+      <Filter>TreeGrid\GridCtrl_src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TreeGrid\GridCtrl_src\GridCell.h">
+      <Filter>TreeGrid\GridCtrl_src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TreeGrid\GridCtrl_src\GridCellBase.h">
+      <Filter>TreeGrid\GridCtrl_src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TreeGrid\GridCtrl_src\GridCtrl.h">
+      <Filter>TreeGrid\GridCtrl_src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TreeGrid\GridCtrl_src\GridDropTarget.h">
+      <Filter>TreeGrid\GridCtrl_src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TreeGrid\GridCtrl_src\InPlaceEdit.h">
+      <Filter>TreeGrid\GridCtrl_src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TreeGrid\GridCtrl_src\MemDC.h">
+      <Filter>TreeGrid\GridCtrl_src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TreeGrid\GridCtrl_src\TitleTip.h">
+      <Filter>TreeGrid\GridCtrl_src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TreeGrid\GridTreeBtnCell_src\GridTreeBtnCell.h">
+      <Filter>TreeGrid\GridTreeBtnCell_src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TreeGrid\TreeColumn_src\GridTreeCell.h">
+      <Filter>TreeGrid\TreeColumn_src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TreeGrid\TreeColumn_src\GridTreeCellBase.h">
+      <Filter>TreeGrid\TreeColumn_src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TreeGrid\TreeColumn_src\TreeColumn.h">
+      <Filter>TreeGrid\TreeColumn_src</Filter>
+    </ClInclude>
+    <ClInclude Include="AssyTreeDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PVBuildDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PVBuyDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemAndScourceDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QPrint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PVUnitMeasureDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PVSetAddressDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PVImportBOMDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileOperations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PVCurrenciesDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PVSalesDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PVNewClientDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomerDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoRichEditCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PVLoginWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugMessageDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderInformationSearchDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildHistoryDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SSplitter.h">
+      <Filter>SplitterCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="DBConfigDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="T3000.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
