@@ -1,0 +1,6 @@
+﻿1.在PO，BuyDetailsTable 加入 NOTE字段，加入PNID字段
+2.保存BuildHistory信息
+------------------
+做Buildhistory 界面
+添加了服务器IP的对话框
+3.修正了 sunny邮件提出的几个问题。
